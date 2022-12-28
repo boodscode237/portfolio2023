@@ -1,13 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary: #dd2c00;
+  --secondary: #fafafa;
+  --bg: #cde7f1;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--bg);
+}
+* {
+  color: #263238;
+  margin: 0;
+}
+p {
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  transition: all 1s;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+  -webkit-transform: scale(1.1);
+  /*animation-iteration-count: infinite;*/
+  /*-webkit-transform: scaleX(-1);*/
+  /*transform: scaleX(-1);*/
+}
+/*.languages{*/
+/*  background: rgba( 174, 76, 76, 0.25 );*/
+/*  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );*/
+/*  backdrop-filter: blur( 4px );*/
+/*  -webkit-backdrop-filter: blur( 4px );*/
+/*  border-radius: 10px;*/
+/*  border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+/*}*/
+
+header div button {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+.menu{
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+header nav a{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+a.active {
+  color: var(--primary);
+}
+
+main{
+  max-width: 1200px;
+  margin: 40px auto;;
 }

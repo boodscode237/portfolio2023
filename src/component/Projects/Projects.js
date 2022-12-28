@@ -25,14 +25,17 @@ const Projects = () => {
         window.open({url})
     }
     const classes = projectStyle()
-    const renderExperience = publicationAPI.map(experienceApi => (
+    const renderExperience = publicationAPI.map((experienceApi, id, title, desc, link) => (
         <Grid key={experienceApi.id} item xs>
             <Paper className={classes.paper}>
-                <h1>{experienceApi.year}</h1>
-                <h2>{experienceApi.title}</h2>
-                <p>
-                    {experienceApi.desc}
-                </p>
+                    <h2>{experienceApi.title}</h2>
+                    <p>
+                        {experienceApi.desc}
+                    </p>
+                <a href={experienceApi.link}>
+
+                    <button>Read more</button>
+                </a>
             </Paper>
         </Grid>
     ))
@@ -45,6 +48,9 @@ const Projects = () => {
             <div className="desc">
                 {desc}
             </div>
+            <a href={link}>
+                <button>See the project</button>
+            </a>
 
         </div>
     ))

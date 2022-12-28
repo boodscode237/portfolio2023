@@ -25,3 +25,7 @@ div.desc {
   text-align: center;
   letter-spacing: 3px;
 }
+
+div.a.button {
+  align: center;
+}

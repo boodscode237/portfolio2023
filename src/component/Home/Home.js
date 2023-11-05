@@ -24,9 +24,9 @@ const Home = () => {
 
                             </h1>
                             <h2>
-                                a
+                                I know
                                 <span className={classes.span}>
-                <Typewriter words={[" Student.", " Developer.", " Software Developer.", " Coffeemaker.", " Guy searching for experience.", " Guy searching that speak 5 languages."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Python", " Data analysis libraries.", " Machine learning libraries(scikit-learn)."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
                             </h2>
                         </Paper>

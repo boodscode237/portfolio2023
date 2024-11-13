@@ -44,7 +44,7 @@ const RootLayout = (props) => {
                                 aria-label="open drawer"
                             >
                                 <Link className='menu' to='/'>
-                                    Boodscode
+                                    ai.abodo
                                 </Link>
                             </IconButton>
                             <Typography className={classes.title} variant="h5" noWrap>

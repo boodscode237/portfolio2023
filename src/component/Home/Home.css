@@ -6,3 +6,83 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+.gradient-background {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    padding: 30px;
+    min-height: 100vh;
+    color: white;
+}
+
+.intro-paper {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-title {
+    font-size: 2.5rem;
+    color: #FFF;
+}
+
+.name-highlight {
+    color: #ffeb3b;
+}
+
+.specialization {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.typing-highlight {
+    color: #ff9800;
+}
+
+.languages-paper {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #FFF;
+}
+
+.languages-header {
+    font-weight: bold;
+}
+
+.languages-code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffeb3b;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.languages-append {
+    font-size: 1.2rem;
+    color: #ff9800;
+    margin-top: 15px;
+}
+
+.profile-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.profile-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.social-icons {
+    margin-top: 20px;
+}

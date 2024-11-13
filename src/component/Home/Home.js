@@ -29,7 +29,7 @@ const Home = () => {
                                         words={[
                                             " Python Programming", 
                                             " Data Analysis Libraries", 
-                                            " Machine Learning (scikit-learn, TensorFlow)",
+                                            " Machine Learning (scikit-learn, TensorFlow, Pytorch)",
                                             " Artificial Intelligence"
                                         ]} 
                                         loop 
@@ -57,12 +57,12 @@ const Home = () => {
                                 <p className={classes.span}>
                                     <Typewriter 
                                         words={[
-                                            ".append('Javascript')", 
+                                            ".append('Spark')", 
                                             ".append('Python')", 
-                                            ".append('C#')", 
-                                            ".append('ReactJS')",
-                                            ".append('NodeJS')", 
-                                            ".append('Kotlin')"
+                                            ".append('Pytorch')", 
+                                            ".append('Scikit-Learn')",
+                                            ".append('Keras')", 
+                                            ".append('NLP')"
                                         ]} 
                                         loop 
                                         cursor 

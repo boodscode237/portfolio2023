@@ -114,75 +114,11 @@ export const ResumeApi = [
 ]
 export const TechnologiesUsed = [
     {
-        id: 1,
-        category: "front-end",
-        name: "HTML",
-        imageUrl: "https://bookflow.ru/wp-content/uploads/2016/03/html5.png",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 2,
-        category: "front-end",
-        name: "CSS",
-        imageUrl: "https://amazingcss.com/logos/logo-1024x1024.png",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 3,
-        category: "front-end",
-        name: "MATERIAL UI",
-        imageUrl: "https://miro.medium.com/max/1200/1*FDNeKIUeUnf0XdqHmi7nsw.png",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 4,
-        category: "front-end",
-        name: "Bootstrap",
-        imageUrl: "https://leader-id.storage.yandexcloud.net/event_photo/244710/618a3eaea05d4341146829.png",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 5,
-        category: "front-end",
-        name: "REACT",
-        imageUrl: "https://fuzeservers.ru/wp-content/uploads/2/9/1/291e3386f4b10c67ec8c427ce47d957c.png",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 6,
-        category: "BackEnd",
-        name: "NODEJS",
-        imageUrl: "https://fuzeservers.ru/wp-content/uploads/a/6/d/a6d05477e67baf048d57ff6d15696f56.jpeg",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 7,
-        category: "BackEnd",
-        name: "Express",
-        imageUrl: "https://blog.knoldus.com/wp-content/uploads/2021/12/exprss.jpg",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 8,
-        category: "Fullstack",
-        name: "Python",
-        imageUrl: "https://luxe-host.ru/wp-content/uploads/6/7/0/6703031d3acc07e7a480482cf1a0e07f.jpeg",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
         id: 9,
         category: "BackEnd",
         name: "Django",
         imageUrl: "https://system-blog.ru/wp-content/uploads/2017/12/python_django.png",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
     },
     {
@@ -190,34 +126,31 @@ export const TechnologiesUsed = [
         category: "BackEnd",
         name: "Flask",
         imageUrl: "https://d6x8u9i2.rocketcdn.me/blog/wp-content/uploads/2019/01/Screen-Shot-2019-01-21-at-4.05.09-PM.png",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
-
     },
     {
         id: 11,
         category: "Fullstack",
         name: "CSHARP",
         imageUrl: "https://i.pinimg.com/originals/c4/db/9b/c4db9be611286c10518909959f68c679.jpg",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
-
     },
     {
         id: 12,
         category: "BackEnd",
-        name: "MongoDb",
+        name: "MongoDB",
         imageUrl: "https://pluspng.com/img-png/mongodb-png--1000.png",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
-
     },
     {
         id: 13,
         category: "BackEnd",
-        name: "PostgreSql",
+        name: "PostgreSQL",
         imageUrl: "https://fuzeservers.ru/wp-content/uploads/b/c/a/bcaacf5e302ad636540f125577be3127.png",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
     },
     {
@@ -225,63 +158,47 @@ export const TechnologiesUsed = [
         category: "Fullstack",
         name: "MSSQL",
         imageUrl: "https://topicbites.com/wp-content/uploads/2019/04/59fece5dd23b0_387645b.jpg",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
     },
     {
-        id: 15,
-        category: "GameDevelopment",
-        name: "Unity",
-        imageUrl: "https://geeks.ms/windowsplatform/wp-content/uploads/sites/266/2016/12/unitycarlos.jpg",
-        rate: "4.80/5 ",
+        id: 16,
+        category: "Data Science",
+        name: "Pandas",
+        imageUrl: "https://pandas.pydata.org/static/img/pandas_secondary_white.svg",
+        rate: "5.00/5",
         cols: 2
     },
     {
         id: 17,
-        category: "Design",
-        name: "Tailwing",
-        imageUrl: "https://storage.googleapis.com/axelmedia-com-storage/2019/12/80c513d0-tailwind-css.png",
-        rate: "4.80/5 ",
+        category: "Data Science",
+        name: "Numpy",
+        imageUrl: "https://numpy.org/images/logo.svg",
+        rate: "5.00/5",
         cols: 2
     },
     {
         id: 18,
-        category: "Design",
-        name: "Figma",
-        imageUrl: "https://saytoved.ru/wp-content/uploads/2022/09/adobe-dogovorilas-o-pokupke-figma_63244222bbe75.jpeg",
-        rate: "4.80/5 ",
+        category: "Machine Learning",
+        name: "TensorFlow",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
+        rate: "4.90/5",
         cols: 2
     },
     {
         id: 19,
-        category: "BackEnd",
-        name: "Next JS",
-        imageUrl: "https://miro.medium.com/max/1400/1*mxaAmDry1AlFqLJQnfM4DQ.jpeg",
-        rate: "4.80/5 ",
+        category: "Machine Learning",
+        name: "CatBoost",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/67/CatBoost.png",
+        rate: "5.00/5",
         cols: 2
     },
     {
         id: 20,
-        category: "FrontEnd",
-        name: "Javascript",
-        imageUrl: "https://hosting27.ru/pics/db5a73206bcd3243f35b41cade52ec6e.jpg",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 21,
-        category: "Android",
-        name: "Kotlin",
-        imageUrl: "https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/coding-orbit--kotlin.jpg",
-        rate: "4.80/5 ",
-        cols: 2
-    },
-    {
-        id: 22,
-        category: "Android",
-        name: "JetPack Compose",
-        imageUrl: "https://miro.medium.com/max/1200/1*tmq-dRItjBTJFcKj_d-KSA.png",
-        rate: "4.80/5 ",
+        category: "Machine Learning",
+        name: "Scikit-Learn",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+        rate: "4.80/5",
         cols: 2
     },
     {
@@ -289,7 +206,7 @@ export const TechnologiesUsed = [
         category: "Cloud",
         name: "Heroku",
         imageUrl: "https://i.pinimg.com/originals/91/cd/d3/91cdd344fdabc4026610bfb037fd2615.jpg",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
     },
     {
@@ -297,7 +214,7 @@ export const TechnologiesUsed = [
         category: "Cloud",
         name: "Git",
         imageUrl: "https://fuzeservers.ru/wp-content/uploads/3/0/c/30c29ce4cc08523ecc6e1f205bc207d0.jpeg",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
     },
     {
@@ -305,7 +222,7 @@ export const TechnologiesUsed = [
         category: "Cloud",
         name: "Azure Cloud",
         imageUrl: "https://surface-pro.ru/wp-content/uploads/2022/03/microsoft-azure.png",
-        rate: "2.0/5 ",
+        rate: "4.00/5",
         cols: 2
     },
     {
@@ -313,8 +230,15 @@ export const TechnologiesUsed = [
         category: "Version control",
         name: "NPM",
         imageUrl: "https://dev-gang.ru/static/storage/48992887279916665907502250799840511023.jpeg",
-        rate: "4.80/5 ",
+        rate: "4.80/5",
         cols: 2
     },
-
-]
+    {
+        id: 27,
+        category: "Natural Language Processing",
+        name: "DistilBERT",
+        imageUrl: "https://huggingface.co/front/thumbnails/distilbert.png",
+        rate: "5.00/5",
+        cols: 2
+    }
+];

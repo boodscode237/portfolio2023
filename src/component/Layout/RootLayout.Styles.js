@@ -29,7 +29,7 @@ import { makeStyles } from "@material-ui/core";
 const rootLayoutStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        backgroundColor: "#f5f5f5",
+        backgroundColor: "#f5f5f5", // Lightened background
         padding: theme.spacing(3),
         minHeight: "100vh",
     },
@@ -37,17 +37,17 @@ const rootLayoutStyles = makeStyles((theme) => ({
         marginLeft: theme.spacing(2),
         padding: theme.spacing(1, 2),
         color: "#fff",
-        backgroundColor: "#4e54c8",
+        backgroundColor: "#4e54c8", // Retained the blue tone
         borderRadius: 8,
         boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.15)",
         transition: "background-color 0.3s ease",
         "&:hover": {
-            backgroundColor: "#6c63ff",
+            backgroundColor: "#6c63ff", // Slightly adjusted hover color
         },
     },
     toolbar: {
         alignItems: "center",
-        background: "linear-gradient(135deg, #4e54c8, #8f94fb)",
+        background: "linear-gradient(135deg, #4e54c8, #8f94fb)", // Retained the gradient
         minHeight: 80,
         paddingTop: theme.spacing(1),
         paddingBottom: theme.spacing(2),
@@ -60,7 +60,7 @@ const rootLayoutStyles = makeStyles((theme) => ({
         alignSelf: "center",
         fontSize: "1.8rem",
         fontWeight: 600,
-        color: "#fff",
+        color: "#000", // Changed title color to black
         textShadow: "0px 2px 4px rgba(0, 0, 0, 0.3)",
         fontFamily: "'Roboto', sans-serif",
     },

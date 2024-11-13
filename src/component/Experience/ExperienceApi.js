@@ -76,6 +76,41 @@ export const ResumeApi = [
             "For now responsible for the front endof all the potential apps(Android, Native, Desktop apps will be made by me. ",
         rate: "5.00/5 ",
     },
+    {
+        id: 8,
+        category: "experience",
+        year: "Работа.ру (Sep 2023 - Feb 2024)",
+        title: "Data Science Intern",
+        desc: "Developed algorithms to predict salaries using tools like Pandas, Numpy, CatBoost, and Sklearn.\n" +
+            "Integrated NLP methods to enhance model performance.",
+        rate: "4.90/5",
+    },
+    {
+        id: 9,
+        category: "experience",
+        year: "ВАВТ (Feb 2024 - July 2024)",
+        title: "Software Development Intern",
+        desc: "Developed a multi-class text classification model using deep learning.\n" +
+            "Achieved a model accuracy of over 80% using libraries like Numpy and TensorFlow.",
+        rate: "4.85/5",
+    },
+    {
+        id: 10,
+        category: "projects",
+        title: "Enhanced Text Classification",
+        desc: "Developed and fine-tuned various ML models for text classification.\n" +
+            "Utilized FFN, Conv1D, and DistilBERT with data augmentation to enhance model robustness.",
+        rate: "5.00/5",
+    },
+    {
+        id: 11,
+        category: "projects",
+        title: "AI Salary Prediction",
+        desc: "Created an interpretable salary prediction model using machine learning techniques.\n" +
+            "Worked with data from over 10,000 job listings.\n" +
+            "CatBoost model provided the best performance with MAPE of 0.247.",
+        rate: "4.95/5",
+    },
 ]
 export const TechnologiesUsed = [
     {

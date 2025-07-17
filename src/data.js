@@ -1,6 +1,6 @@
 export const portfolioData = {
   profile: {
-    name: "Brice Donald Abodo Brice",
+    name: "Brice Donald",
     title: "AI & NLP Researcher",
     email: "b.abodo@yandex.com",
     imageUrl: "https://i.ibb.co/LQjg4QJ/linkedin-profile.jpg",
@@ -124,6 +124,6 @@ export const portfolioData = {
       "MongoDB",
       "Docker",
     ],
-    Languages: ["English (Fluent)", "French (Native)", "Russian (Advanced)"],
+    Languages: ["English (Native)", "French (Native)", "Russian (Advanced)"],
   },
 };

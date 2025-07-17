@@ -72,9 +72,16 @@ export const portfolioData = {
   ],
   education: [
     {
+      degree: "PhD in Artificial Intelligence",
+      institution: "ITMO University, Saint Petersburg",
+      year: "2025 - 2028",
+      description:
+        "Advancing Cross-Lingual Transfer Learning for Low-Resource French Medical NLP'.",
+    },
+    {
       degree: "Master's Degree in Artificial Intelligence",
       institution: "ITMO University, Saint Petersburg",
-      year: "2023 - 2025 (Expected)",
+      year: "2023 - 2025",
       description:
         "Specializing in NLP and Computer Vision. Research Topic: 'Development and Optimization of a Large Language Model (LLM) for the French Language'.",
     },
@@ -82,8 +89,8 @@ export const portfolioData = {
       degree: "Bachelor's Degree in Information Technology",
       institution:
         "Russian State Vocational Pedagogical University, Yekaterinburg",
-      year: "2023",
-      description: "",
+      year: "2019-2023",
+      description: "IT in Education(EduTech)",
     },
   ],
   skills: {

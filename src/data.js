@@ -42,10 +42,10 @@ export const portfolioData = {
     {
       title:
         "Enhanced Text Classification Using DistilBERT with Low-Rank Adaptation",
-      venue: "In Submission",
+      venue: "Published",
       year: "2024",
       description:
-        "This paper details the development of a sentiment analysis model, comparing FFN, Conv1D, and a fine-tuned DistilBERT transformer. It highlights the effectiveness of data augmentation through back-translation in improving model robustness and performance.",
+        "This paper details the development of a sentiment analysis model, comparing FFN, Conv1D, and a fine-tuned DistilBERT transformer. It highlights the effectiveness of data augmentation through back-translation in improving model robustness and performance. https://ispranproceedings.elpub.ru/jour/article/view/1941",
     },
     {
       title:
